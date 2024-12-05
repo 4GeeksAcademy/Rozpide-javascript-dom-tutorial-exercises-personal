@@ -1,5 +1,8 @@
 let button = document.getElementById("superDuperButton");
 button.addEventListener("click", function() {
-	// Your code here
+	let agregarItemLista = document.createElement('li');
+	let añadirNumeroDeItem = document.cr
+	let myList = document.getElementById('myList');
+	myList.appendChild(agregarItemLista);// Your code here
 
 });
